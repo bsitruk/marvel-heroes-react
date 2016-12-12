@@ -10,3 +10,7 @@
 .main-title {
     background: #ed1d24;
 }
+
+.loading-message {
+    font-size: 2rem;
+}

@@ -16,6 +16,9 @@ class Main extends Component {
                     <Link to="/">
                         <h1 className="main-title"> <img src={marvel} role="presentation"/></h1>
                     </Link>
+
+                    {this.props.heroes.fetching ? <p className="loading-message">Loading...</p> : null}
+
                     {/* Method to pass App props to its children (HeroGrid or SingleHero) */}
                     {React.cloneElement(this.props.children, this.props)}
                 </div>
