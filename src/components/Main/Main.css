@@ -1,0 +1,12 @@
+.main {
+    padding: 0 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-title {
+    background: #ed1d24;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Marvel:400,700');
+
+:root {
+    --color-vp-pink: #ec008c;
+    --font-marvel: 'Marvel', sans-serif;
+    --font-default: 'Open Sans', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-default);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.section-title {
+    color: var(--color-vp-pink);
+    font-size: 3rem;
+    font-family: var(--font-marvel);
+}

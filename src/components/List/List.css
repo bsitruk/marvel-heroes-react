@@ -1,0 +1,22 @@
+.List__title {
+    margin: 0;
+    text-transform: capitalize;
+    color: #353535;
+}
+
+.List__container {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.List__item {
+    --border: solid 1px #d1d1d1;
+    border-top: var(--border);
+    color: #353535;
+    padding: 5px 0 5px 10px;
+}
+
+.List__item:last-child {
+    border-bottom: var(--border);
+}

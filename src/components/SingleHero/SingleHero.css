@@ -1,0 +1,33 @@
+.single-hero {
+    display: flex;
+    padding: 0 2rem;
+}
+
+@media screen and (max-width: 450px) {
+    .single-hero {
+        display: block;
+    }
+}
+
+.single-hero__photo {
+    margin: 0 2rem 2rem 0;
+}
+
+.single-hero__details {
+    flex-grow: 1;
+}
+
+.single-hero__title {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.single-hero__description {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+.single-hero__lists {
+    margin-top: 4rem;
+}
