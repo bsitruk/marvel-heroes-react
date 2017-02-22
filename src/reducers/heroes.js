@@ -14,7 +14,7 @@ const heroes = (state = initialState, action) => {
             state = {...state, fetching: false, fetched: true, data: action.payload.data.data.results};
             break;
         case 'FETCH_DATA_REJECTED':
-            state = {...state, fetching:false, error: action.payload};
+            state = {...state, fetching: false, error: action.payload};
             break;
         default:
             break;

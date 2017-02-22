@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import App from './components/App/App';
 import HeroGrid from './components/HeroGrid/HeroGrid';
 import SingleHero from './components/SingleHero/SingleHero';
+import ComicsGrid from './components/ComicsGrid/ComicsGrid'
 
 // Import react router deps
 import { Router, Route, IndexRoute } from 'react-router';
@@ -21,6 +22,7 @@ const router = (
             <Route path="/" component={App}>
                 <IndexRoute component={HeroGrid} />
                 <Route path="hero/:heroId" component={SingleHero} />
+                <Route path="comics" component={ComicsGrid} />
             </Route>
         </Router>
     </Provider>

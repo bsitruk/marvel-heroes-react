@@ -8,3 +8,10 @@ export function fetchHeroesData() {
         payload: getCharacters()
     }
 }
+
+export function setVisibility(heroes) {
+    return {
+        type: 'SET_VISIBILITY',
+        scope: heroes
+    }
+}

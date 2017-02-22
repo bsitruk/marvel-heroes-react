@@ -6,6 +6,8 @@ import Main from '../Main/Main';
 function mapStateToProps(state, ownProps) {
     return {
         heroes: state.heroes,
+        comics: state.comics,
+        visibility: state.visibility,
         heroId: ownProps.params.heroId
     };
 }

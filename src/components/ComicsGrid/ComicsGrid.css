@@ -1,0 +1,9 @@
+.ComicsGrid__item {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ComicsGrid__item:hover {
+    background: rgba(201,201,201,0.5);
+}
